@@ -1,0 +1,53 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymFit - Transform Your Body</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Welcome to GymFit</h1>
+        <p>Your Journey to Fitness Starts Here</p>
+        <a href="#services" class="cta-button">Join Now</a>
+    </header>
+    
+
+    <section class="features">
+        <div class="feature">
+            <img src="{% static 'images/gym3.jpg' %}" alt="Personal Training">
+            <h3>Personal Training</h3>
+            <p>Get customized workout plans from expert trainers.</p>
+        </div>
+        <div class="feature">
+            <img src="{% static 'images/gym4.jpg' %}" alt="Personal Training">
+            <h3>Group Classes</hlandin3>
+            <p>Stay motivated with dynamic group sessions.</p>
+        </div>
+        <div class="feature">
+            <img src="{% static 'images/gym1.jpg' %}" alt="Personal Training">
+            <h3>Modern Equipment</h3>
+            <p>Train with the latest fitness machines and tools.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Location: 123 Fitness Ave, Wellness City</p>
+        <p>Email: <a href="mailto:info@gymfit.com">info@gymfit.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+    </section>
+</body>
+</html>
