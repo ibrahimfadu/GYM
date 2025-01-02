@@ -122,3 +122,10 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'gym-1-ibv7.onrender.com',
+]
